@@ -1,0 +1,15 @@
+conda activate env_langchain1
+python manage.py runserver
+
+lstm is what??
+LAI(leaves area index) have nothing with air, light now!!!
+
+ mixture of expert
+
+Difficulty: lolgic inference
+
+各自之间数据传递打通
+
+bpmn backend, interface
+
+BPMN call LLAMAR2

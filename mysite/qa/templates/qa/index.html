@@ -1,0 +1,12 @@
+<h1>Please input you question in the below space</h1>
+<form action = "{% url 'qa:results' %}" method = "post">
+{% csrf_token %}    
+    <label >question</label><br>
+    <input type = "text" name = "question" placeholder="input you question"><br><br>
+    <label>LAI</label><br>
+    <input type = "text" name = "LAI" placeholder="input you LAI"><br><br>
+    <input type="submit" name = "submit" value = "submit"><br><br>
+    <hr>    
+</form>
+<label>answer</label><br><br>
+{{ answer }}
